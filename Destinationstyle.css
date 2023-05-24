@@ -1,0 +1,230 @@
+.destination{
+       padding-top: 20%;
+       margin: 4rem 6rem;
+      
+}
+.destination h1{
+       font-size: 3rem;
+
+}
+.first-des{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4.5rem;
+
+}
+.second-des{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4.5rem;
+
+}
+.third-des{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4.5rem;
+
+}
+.fourth-des{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4.5rem;
+
+}
+.fiveth-des{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 4.5rem;
+
+}
+.des-text{
+       width: 45%;
+       text-align: start;
+       font-size: 1rem;
+
+}
+.des2-text{
+       width: 45%;
+       text-align: start;
+       font-size: 1rem;
+
+}.des3-text{
+       width: 45%;
+       text-align: start;
+       font-size: 1rem;
+
+}
+.des4-text{
+       width: 45%;
+       text-align: start;
+       font-size: 1rem;
+
+}
+.des5-text{
+       width: 45%;
+       text-align: start;
+       font-size: 1rem;
+
+}
+.des-text h2{
+       padding-bottom: 1rem;
+}
+.des-text p{
+       font: size 6rem;
+       font-weight: 100px;
+       
+       font-style: normal;
+       
+}
+.des2-text p{
+       font-size:bold;
+       font-weight: 50px;
+       
+       font-style: normal;
+       
+}
+.des3-text p{
+       font-size:bold;
+       font-weight: 100px;
+       
+       font-style: normal;
+       
+}
+.des4-text p{
+       font-size:bold;
+       font-weight: 500px;
+      
+       font-style: normal;
+    
+}
+.des5-text p{
+       font-size:bold;
+       font-weight: 100px;
+      
+       font-style: normal;
+       
+}
+.image{
+       position: relative;
+       width: 50%;
+       display: flexbox;
+       justify-content: space-between;
+       z-index: -99%;
+       
+
+}
+.image img{
+       width: 59%;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 6px;
+       box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+}
+.image img:nth-child(){
+       position: absolute;
+       top: -18%;
+       right: 0;
+}
+
+.image img2{
+       width: 500vh;
+       height: 350px ;
+      object-fit: cover;
+       border-radius: 6px;
+       box-shadow:-1px 1px 62px -18px rgb(0,0,0,0.19) ;
+}
+.image img3{
+       width: 500%;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 6px;
+       box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+}
+.image img4{
+       width: 500%;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 6px;
+       box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+}
+.image img5{
+       width:auto;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 6px;
+       box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+}
+.image img6{
+       width: 550%;
+       height: 350%;
+       object-fit: cover;
+       border-radius: 6px;
+       box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+}
+@media screen and (max-width:850px){
+       .destination{
+              padding-top: 20%;
+              margin: 4rem 2rem;
+             
+       }
+       .first-des{
+              display: flex;
+              flex-direction: column-reverse;
+             
+              margin-top: 2.5rem;
+       }
+       .second-des{
+              display: flex;
+              flex-direction: column-reverse;
+             
+              margin-top: 2.5rem;
+       }
+       .third-des{
+              display: flex;
+              flex-direction: column-reverse;
+             
+              margin-top: 2.5rem;
+       }
+       .fourth-des{
+              display: flex;
+              flex-direction: column-reverse;
+             
+              margin-top: 2.5rem;
+       }
+       .fiveth-des{
+              display: flex;
+              flex-direction: column-reverse;
+             
+              margin-top: 2.5rem;
+       }
+       .des-text{
+              width: 100%;
+       }
+       .des2-text{
+              width: 100%;
+       }
+       .des3-text{
+              width: 100%;
+       }
+       .des4-text{
+              width: 100%;
+       }
+       .des5-text{
+              width: 100%;
+       }
+          
+       .image{
+              width: 100%;
+              margin: 1.8rem 0;
+
+       }
+       .image img{
+              height: 250px;
+
+       }
+}

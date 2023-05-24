@@ -1,0 +1,18 @@
+.pricing-section{
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.pricing-card{
+    width: 30%;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px ;
+}
